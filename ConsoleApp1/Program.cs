@@ -200,7 +200,7 @@ namespace Prova
                     ws.Cell("E" + linha.ToString()).Value = (String.Format(uf));
                     ws.Cell("F" + linha.ToString()).Value = (String.Format(cep));
                     ws.Cell("G" + linha.ToString()).Value = (String.Format(complemento));
-                    ws.Cell("G" + linha.ToString()).Value = (String.Format(processamento));
+                    ws.Cell("H" + linha.ToString()).Value = (String.Format(processamento));
                     linha++;
 
                     nCount += 6;//logica para incrementar o array dinamicamente
