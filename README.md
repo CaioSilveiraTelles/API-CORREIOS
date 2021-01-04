@@ -25,6 +25,11 @@ using DotNet.CEP.Search.App;//API CEP
 
 Alterar as linhas para o uso
 
+<p align="center">
+  <img width="80%" src="exemplo.png" />
+</p>
+
+
   var tabela = new XLWorkbook(@"C:\Users\caios\Desktop\importar_ceps\bairro-taxa.xlsx"); //colocar o caminho da pasta com o arquivo XLSM do EXCEL
             wb.SaveAs(@"C:\Users\caios\Desktop\importar_ceps\Resultado.xlsx");//SALVA o resultado no seu disco local
 
